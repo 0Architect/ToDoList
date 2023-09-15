@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoesk</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <main class="flex">
+        <section id="section-left">
+            <div class="flex-col">
+                <div class="flex">
+                    <img src="img.jpg" alt="">
+                    <div class="l-margin t-margin">
+                        <p class="divless-p"><b>Anthony</b></p>
+                        <p class="divless-p grey">Free Plan</p>
+                    </div>
+                </div>
+                <div class="pointer w-100"><button class="button" id="premium">Go Premium</button></div>
+            </div>
+            <div class="flex-col">
+                <div class="pointer active"><p class="divless-p plus-div"><span class="material-symbols-outlined large r-margin">target</span>My day<span class="badge l-margin">4</span></p></div>
+                <div class="pointer"><p class="divless-p plus-div t-margin"><span class="material-symbols-outlined large r-margin">calendar_month</span>Next 7 days<span class="badge l-margin">4</span></p></div>
+                <div class="pointer"><p class="divless-p plus-div t-margin"><span class="material-symbols-outlined large r-margin">description</span>All my tasks<span class="badge l-margin">4</span></p></div>
+            </div>
+            <div class="flex-col">
+                <header class="t-margin plus-div">
+                    <b class="plus-div">My lists<span class="material-symbols-outlined grey medium l-margin">lock</span></b><span class="material-symbols-outlined plus grey large">add</span>
+                </header>
+                <ul class="no-dot">
+                    <li class="t-margin">grocery list</li>
+                    <li class="t-margin">work</li>
+                    <li class="t-margin">shopping</li>
+                    <li class="t-margin">personal<span class="badge l-margin">4</span></li>
+                </ul>
+            </div>
+            <div class="flex-col">
+                <header class="t-margin plus-div">
+                    <b>Tags</b><span class="material-symbols-outlined plus grey large">add</span>
+                </header>
+                <ul class="no-dot">
+                    <li class="t-margin yellow">#Priority</li>
+                </ul>
+            </div>
+            <div class="flex-col self-end pointer width-90">
+            <button class="button" id="workspace">Create Workspace</button>
+            </div>
+        </section>
+        <section id="section-center">
+            <div>
+                <h1 class="divless-p xxlarge">Good Afternoon, Justin<span>.</span></h1>
+                <h2 class="divless-p grey xxlarge">Be so good no one can ignore you</h2>
+            </div>
+            <div class="flex t-margin-xlarge">
+                <div class="flex-col center-col" class="width-5px">
+                    <span class="dark-grey">WED</span><span class="text-center xxlarge">16</span><span class="grey">November</span>
+                </div>
+                <div class="flex center-col">
+                    <div class="l-margin-large r-margin-large">
+                        <p class="divless-p large">.</p>
+                        <p class="divless-p large">.</p>
+                    </div>
+                    <div>
+                        <p class="divless-p">All day</p>
+                        <p class="divless-p">6:00PM - 6:45PM</p>
+                    </div>
+                    <div class="l-margin-medium">
+                        <p class="divless-p">🌞35/50</p>
+                        <p class="divless-p">report due</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col">
+                <div class="flex card center-icon">
+                    <span class="material-symbols-outlined large">radio_button_unchecked</span>
+                    <div class="l-margin-medium flex-col">
+                        <div class="center-icon" id="i"><span class="material-symbols-outlined grey small">lock</span><p class="divless-p small grey l-margin-small">My Lists > Personal</p>
+                        <span class="grey small" id="x">X</span></div>
+                        <p class="divless-p t-margin-small">Read the report</p>
+                    </div>
+                </div>
+                <div class="flex card center-icon">
+                    <span class="material-symbols-outlined large">radio_button_unchecked</span>
+                    <div class="l-margin-medium flex-col">
+                        <div class="center-icon" id="i"><span class="material-symbols-outlined grey small">lock</span><p class="divless-p small grey l-margin-small">My Lists > Personal</p>
+                        <span class="grey small" id="x">X</span></div>
+                        <p class="divless-p t-margin-small">Read the report</p>
+                    </div>
+                </div>
+                <div class="flex card center-icon">
+                    <span class="material-symbols-outlined large">radio_button_unchecked</span>
+                    <div class="l-margin-medium flex-col">
+                        <div class="center-icon" id="i"><span class="material-symbols-outlined grey small">lock</span><p class="divless-p small grey l-margin-small">My Lists > Personal</p>
+                        <span class="grey small" id="x">X</span></div>
+                        <p class="divless-p t-margin-small">Read the report</p>
+                    </div>
+                </div>
+            </div>
+            <div class="self-end flex">
+            <div class=" flex-col card width-90">
+                <input type="text" placeholder="+ Add task" id="add-task">
+            </div>
+            <div class="l-margin"><button id="add-button" class="large">+</button></div>
+            </div>
+        </section>
+        <section id="section-right">
+            <div class="flex-col">
+            <div>Events</div>
+            <div class="background">
+            </div>
+            </div>
+        </section>
+   </main> 
+<script src="app.js"></script>
+</body>
+</html>

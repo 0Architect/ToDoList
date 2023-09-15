@@ -1,0 +1,313 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.flex
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#section-left
+{
+    padding: 15px;
+    position: relative;
+    width: 220px;
+    height: 595px;
+}
+
+#section-center
+{
+    padding: 15px;
+    width: 650px;
+    height: 595px;
+    position: relative;
+}
+
+#section-right
+{
+    width: 10px;
+    max-height: 100vh;
+    height: 590px;
+    padding: 15px;
+}
+
+img
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.divless-p
+{
+    margin: 0;
+}
+
+.l-margin
+{
+    margin-left: 10px;
+}
+
+.l-margin-large
+{
+    margin-left: 30px;
+}
+
+.l-margin-medium
+{
+    margin-left: 15px;
+}
+
+.l-margin-small
+{
+    margin-left: 5px;
+}
+
+.r-margin
+{
+    margin-right: 10px;
+}
+
+.r-margin-medium
+{
+    margin-right: 15px;
+}
+
+.r-margin-large
+{
+    margin-right: 30px;
+}
+
+.t-margin
+{
+    margin-top: 10px;
+}
+
+.t-margin-xlarge
+{
+    margin-top: 30px;
+}
+
+.t-margin-small
+{
+    margin-top: 5px;
+}
+
+.badge
+{
+    border-radius: 50%;
+    color: #a1a1a1;
+    width: 1.6em;
+    height: 1.6em;
+    display: inline-block;
+    background-color: #ededed;
+    text-align: center;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.no-dot
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.background
+{
+    width: 400px;
+    height: 550px;
+    background-image: url('background.png');
+}
+
+.button
+{
+    border-radius: 20px;
+    height: 35px;
+    padding: 4px;
+}
+
+#premium
+{
+    background-color: white;
+    border: 1.5px solid rgb(0, 81, 255);
+    color: rgb(0, 81, 255);
+    font-weight: 700;
+}
+
+#workspace
+{
+    background-color: rgb(0, 132, 255);
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.self-end
+{
+    position: absolute;
+    width: 100%; 
+    bottom: 0;
+}
+
+.yellow
+{
+    color: #fad329;
+}
+
+.grey
+{
+    color: #a7a7a7;
+}
+
+.plus-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.large
+{
+    font-size: large;
+}
+
+.medium
+{
+    font-size: medium;
+}
+
+.small
+{
+    font-size: small;
+}
+
+.active
+{
+    color: #0283ff;
+}
+
+.active .badge
+{
+    background-color: #0283ff;
+    color: white;
+}
+
+.pointer :hover
+{
+    cursor: pointer;
+}
+
+.active :hover
+{
+    cursor: pointer;
+}
+
+.w-100
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.xxlarge
+{
+    font-size: xx-large;
+}
+
+.card
+{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0;
+    box-shadow: 0 0 14px 1px rgb(230, 230, 230);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover
+{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.center-icon
+{
+    display: flex;
+    align-items: center;
+}
+
+#add-task
+{
+    border: none;
+    height: 30px;
+}
+
+#add-task:focus
+{
+    outline-color: white;
+}
+
+.width-90
+{
+    width: 85%;
+}
+
+#add-button
+{
+    height: 45px;
+    width: 45px;
+    border: none;
+    background-color: #0283ff;
+    color: white;
+    border-radius: 10px;;
+}
+
+#add-button:hover
+{
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+#x
+{
+    position: absolute;
+    right: 0;
+}
+
+#x:hover
+{
+    color: rgb(214, 62, 62);
+}
+
+#i
+{
+    width: 550px;
+    position: relative;
+}
+
+.center-col
+{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dark-grey
+{
+    color: #575757;
+}
